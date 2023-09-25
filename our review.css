@@ -1,0 +1,133 @@
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    padding: 90px;
+    text-shadow: 9px 3px 2px rgb(219, 198, 198);
+}
+
+u{
+    /* text-decoration: underline;
+    -webkit-text-decoration-color: rgb(164, 236, 158); Safari;
+    text-decoration-color: rgb(156, 33, 175);
+    text-decoration-line:underline;
+    text-decoration-style:inherit ; */
+    text-decoration: underline solid rgb(2, 103, 2) 10%;
+}
+.random-btn {
+    font-size: medium;
+    font: 1em sans-serif;
+    opacity: 1 ;
+    text-transform: capitalize;
+    background-color: rgb(171, 245, 220);
+    border: double;
+    padding: revert;
+    border-color: rgb(233, 4, 249);
+    border-radius: 20px 20px;
+}
+.random-btn:hover {
+    background-color: rgb(242, 226, 6);
+    border:dotted;
+    padding:revert;
+    border-color: rgba(204, 77, 250, 0.312);
+    border-radius: 20px 20px;
+    /* position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 10px double rgb(134, 127, 3);
+    background-color: rgb(180, 55, 149); */
+    
+}
+
+h4 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#job {
+    text-transform: uppercase;
+    color:blueviolet;
+}
+
+#info::first-letter {
+    text-transform:capitalize;
+}
+#info{
+    color:rgb(2, 103, 2);
+    line-height: 1.4;
+}
+
+.card{
+    box-shadow: 0 5px 18px 0 rgb(8, 0, 9) ;
+    /* box-shadow: 109px 159px 202px 104px rgb(247, 203, 210) inset; */
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    font-family:initial;
+    padding: 20px;
+
+}
+
+#person-img {
+    border-radius: 50%;
+    box-shadow: 11px -9px rgb(82, 176, 243);
+    width: 250px;
+    height: 250px;
+    padding: 0%;
+    margin: 10%;
+}
+/* .zone-circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid rgb(82, 176, 243);
+    left: 120px;
+    top: -265px;
+    background-color: rgb(82, 176, 243);
+} */
+
+.button-container {
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+.button-container:hover{
+    visibility: visible;
+}
+
+#person-img {
+    rotate: 359deg;
+}
+
+#icon-img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    left: -103px;
+    top: -275px;
+    rotate: 181deg;
+}
+
+.arrow {
+    border: solid rgb(2, 117, 67);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    /* -webkit-transform: rotate(-45deg); */
+    visibility: visible;
+  }
+
+.left{
+    transform: rotate(135deg);
+    visibility: visible;
+}
+
+
+

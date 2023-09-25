@@ -1,0 +1,93 @@
+body, html{
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    color: blue;
+    overflow: hidden;
+}
+.modal-overlay{
+    background-color: rgb(161, 197, 228);
+    position: relative;
+    color: rgb(0, 2, 12);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(229, 186, 12), 0 0 25px blue, 0 0 5px darkblue;
+    border: 1px solid rgb(0, 1, 10);
+    border: 0px solid;
+    border-radius: 31px;
+    box-shadow: 1px 4px 7px -2px black;
+    width: fit-content;
+    margin: -10px auto;
+    padding: 100px;
+    font-style: oblique;
+    top: 56px;
+}
+.img{
+    background-image: url(https://www.w3schools.com/howto/img_parallax.jpg);
+    height: 100%;
+    
+}
+.img {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -41px;
+}
+.button{
+    border-radius: 8px 8px;
+    border: lawngreen;
+    background-color: cyan;
+    position: relative;
+    top: 61px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    left: auto;
+}
+.hero {
+   
+    position: relative;
+    top: 367px;
+}
+
+.banner {
+    background-color: aliceblue;
+    position: relative;
+    color: rgb(0, 2, 12);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(229, 186, 12), 0 0 25px blue, 0 0 5px darkblue;
+    border: 1px solid rgb(0, 1, 10);
+    border: 0px solid;
+    border-radius: 31px;
+    box-shadow: 1px 4px 7px -2px black;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 90px;
+    font-style: oblique;
+}
+.close-btn{
+    position: relative;
+    top: -137px;
+    left: 131px;
+}
+.modal-overlay{display: none;}
+.modal-overlay.open-modal{display: block;}
+
+ /* .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(233, 73, 97, 0.5);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    visibility: hidden;
+    z-index: -10;
+  } */
+
+
+  
